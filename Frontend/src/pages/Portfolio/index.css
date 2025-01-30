@@ -1,0 +1,98 @@
+.portfolio-page {
+  padding-top: 80px;
+}
+
+.portfolio-hero {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.portfolio-hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio-hero p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.case-study-section {
+  padding: 4rem 2rem;
+  background-color: rgba(139, 92, 246, 0.05);
+}
+
+.case-study-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.case-study-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.case-study {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.purple-text {
+  color: var(--primary);
+}
+
+.case-study h4 {
+  margin-bottom: 1.5rem;
+}
+
+.case-study h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.solution, .results, .services-provided {
+  margin-top: 2rem;
+}
+
+.case-study ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.case-study li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.case-study li::before {
+  content: "•";
+  color: var(--primary);
+  position: absolute;
+  left: 0;
+}
+
+.cta-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .portfolio-hero h1 {
+    font-size: 2.5rem;
+  }
+}
