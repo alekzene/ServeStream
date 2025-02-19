@@ -9,6 +9,10 @@ module.exports = {
         white: "#FFFFFF",
         black: "#000000",
       },
+      fontFamily: {
+        lexend: ["Lexend", "sans-serif"],
+        sans: ['"Nunito Sans"', 'sans-serif'],
+      },
     },
   },
   variants: {
