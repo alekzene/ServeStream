@@ -11,7 +11,7 @@ module.exports = {
       },
       fontFamily: {
         lexend: ["Lexend", "sans-serif"],
-        sans: ['"Nunito Sans"', 'sans-serif'],
+        sans: ["Nunito Sans", "sans-serif"],
       },
       boxShadow: {
         custom: "0px 3px 2px 0px rgba(0, 0, 0, 0.2)",

@@ -1,7 +1,7 @@
 
 
 .home {
-  padding-top: 80px;
+  padding-top: 160px;
 }
 
 .hero {
@@ -10,7 +10,7 @@
   justify-content: space-between;
   padding: 0 2rem;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 80px auto;
 }
 
 .hero-content {
@@ -18,26 +18,45 @@
 }
 
 .hero-content h1 {
+  font-family: 'Lexend', sans-serif;
   font-size: 4rem;
+  font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.5rem;
 }
 
+.section-hero {
+  min-height: calc(100vh - 120px);
+}
+
 .hero-content p {
-  font-size: 1.25rem;
-  color: var(--text-secondary);
-  margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
 .hero-image {
-  background-color: var(--primary);
-  width: 30%;
+  max-width: 40%;
   height: inherit;
 }
 
+.home .btn-gradient,
+.navbar .btn-gradient {
+  background: rgb(203,163,255);
+  background: linear-gradient(90deg, rgba(203,163,255,1) 0%, rgba(112,13,204,1) 100%);
+  border-radius: 50px;
+  font-family: 'Lexend';
+  font-weight: 700;
+}
+.navbar .btn-gradient {
+  padding: 10px 24px;
+}
+
 .scroll-more {
-  margin-top: 1rem;
+  padding-top: 3rem;
   text-align: center;
+}
+.scroll-more img {
+  margin: auto;
+  cursor: pointer;
 }
 
 .stats {
@@ -47,8 +66,10 @@
 }
 
 .stats h2 {
+  font-family: 'Lexend', sans-serif;
   color: black;
   font-size: 2.5rem;
+  font-weight: 700;
   margin-bottom: 3rem;
 }
 
@@ -61,19 +82,28 @@
 }
 
 .stat-box {
-  background-color: #d9d9d9;
-  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 2px 0px #00000033;
+  padding: 30px 40px;
   border-radius: 12px;
+  position: relative;
+  font-size: 30px;
+  text-align: left;
 }
-
-.stat-box h3 {
-  font-size: 2.5rem;
-  color: var(--primary);
-  margin-bottom: 0.5rem;
+.stat-box img {
+  position: relative;
+  width: 50px;
+  margin-top: calc(-40px - 20px);
+  margin-left: calc(50% - 25px);
+  margin-bottom: 20px;
 }
 
 .stat-box p {
   color: black;
+}
+.stat-box p span {
+  color: var(--primary);
+  font-weight: 700;
 }
 
 .advantage {
@@ -83,6 +113,8 @@
 
 .advantage h2 {
   font-size: 2.5rem;
+  font-weight: 700;
+  padding-bottom: 20px;
 }
 
 .services-grid {
@@ -94,28 +126,38 @@
 }
 
 .service-card {
-  background-color: #d9d9d9;
-  padding: 2rem;
+  padding: 3rem 2rem;
   border-radius: 12px;
   text-align: center;
+  box-shadow: 0px 3px 2px 0px #00000033;
 }
 
 .service-card-image {
   width: 100px;
   height: 100px;
-  background-color: var(--primary);
-  border-radius: 50px;
   margin: 10px auto;
 }
 
 .service-card h3 {
-  color: var(--primary);
+  font-weight: 700;
   margin-bottom: 1rem;
+  font-size: 1.4rem;
 }
 
 .service-card p {
   margin-bottom: 1.5rem;
   color: black;
+}
+
+.partners h1 {
+  font-size: 3rem;
+}
+
+.partner-card {
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  min-width: 200px;
+  box-shadow: 0px 3px 2px 0px #00000033;
 }
 
 @media (max-width: 768px) {
@@ -272,6 +314,7 @@
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 .partner-logo {
@@ -380,6 +423,41 @@
 
 .cta-button:hover {
   background-color: #7424c9;
+}
+.schedule {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+.schedule_grid {
+  display: flex;
+}
+.schedule_left {
+  width: 50%;
+}
+.schedule_right {
+  width: 50%;
+}
+.schedule_right h3 {
+  font-size: 2.5rem;
+}
+.schedule_right h4 {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.schedule_right p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+.elevate {
+  padding: 5rem 0;
+}
+.elevate h1 {
+  font-size: 3rem;
+  padding-bottom: 3rem;
 }
 
 /* Responsive Design */
