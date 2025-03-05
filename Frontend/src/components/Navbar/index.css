@@ -47,6 +47,22 @@
   color: var(--primary);
 }
 
+.mode-change {
+  background: linear-gradient(90deg, rgba(203,163,255,1) 0%, rgba(112,13,204,1) 100%);
+  padding: 6px;
+  border-radius: 50px;
+  width: 80px;
+  cursor: pointer;
+  display: flex;
+}
+.mode-change > div {
+  width: 34px;
+  height: 34px;
+  border-radius: 30px;
+  background-color: #D9D9D9;
+  padding: 6px;
+}
+
 @media (max-width: 768px) {
   .nav-menu {
     display: none;
