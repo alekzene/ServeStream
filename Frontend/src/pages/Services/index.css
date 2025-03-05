@@ -13,13 +13,14 @@
 }
 
 .services-hero h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
 }
 
 .services-hero p {
-  font-size: 1.25rem;
-  color: var(--text-secondary);
+  margin-top: 12px;
+  font-size: 1.7rem;
+ color: black;
   margin-bottom: 2rem;
 }
 
