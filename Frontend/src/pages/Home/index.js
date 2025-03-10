@@ -90,7 +90,9 @@ function Home() {
       <section className="schedule">
         <div className='schedule_grid'>
           <div className='schedule_left'>
-
+            <div className="book-call">
+              <iframe src='https://calendly.com/servestreamofficial/30min' title="book a call"></iframe>
+            </div>
           </div>
           <div className='schedule_right'>
             <h3 className='font-lexend font-bold'>Ready to Grow?<br/>Schedule a Call with Us Today!</h3>

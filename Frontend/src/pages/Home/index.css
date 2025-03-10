@@ -460,6 +460,19 @@
   padding-bottom: 3rem;
 }
 
+.book-call {
+  max-width: 420px;
+  box-shadow: 0px 3px 2px 0px #00000033;
+  border-radius: 40px;
+  padding: 0px 40px;
+  margin: auto;
+}
+.book-call iframe {
+  border: 0px;
+  width: 100%;
+  min-height: 840px;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .partners-grid {
