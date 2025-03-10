@@ -19,11 +19,11 @@
 
 .about-hero p {
   font-size: 1.25rem;
-  color: var(--text-secondary);
   margin-bottom: 2rem;
 }
 
 .approach-section {
+  display: flex;
   padding: 4rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -36,7 +36,7 @@
 
 .approach-section p {
   font-size: 1.1rem;
-  color: var(--text-secondary);
+
   line-height: 1.8;
 }
 
