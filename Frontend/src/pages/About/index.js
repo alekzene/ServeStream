@@ -23,7 +23,7 @@ function About() {
         <h1 className="font-extrabold">Who We Are</h1>
         <p className="text-black">A team dedicated to your brand's growth</p>
         <div className="hero-buttons">
-          <button className="h-12 p-3 text-white font-bold rounded-full bg-gradient-to-r from-[#CBA3FF] to-[#700DCC]  w-full">Meet the Team Today!</button>
+          <button className="h-12 p-3  font-bold rounded-full bg-gradient-to-r from-[#CBA3FF] to-[#700DCC]  w-full">Meet the Team Today!</button>
           <button className="whitespace-nowrap">Learn more</button>
         </div>
       </section>
@@ -47,9 +47,9 @@ function About() {
 
       <section className="text-left max-w-6xl mx-auto">
   <h2 className="text-4xl font-extrabold">Meet The Team</h2>
-  <p className="text-black text-lg">Creators, Innovators, and Brand Builders</p>
+  <p className=" text-lg">Creators, Innovators, and Brand Builders</p>
 
-  <div className="bg-white p-6 rounded-lg shadow-md mt-4 mb-7">
+  <div className=" p-6 rounded-lg shadow-md mt-4 mb-7">
     {teamMembers.map((member, index) => (
       <div key={index} className="flex items-center gap-12 py-4">
         <div className="">
