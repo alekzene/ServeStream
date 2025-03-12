@@ -27,7 +27,7 @@ function Navbar() {
         <div className="nav-menu">
           <Link to="/services" className="nav-link">Services</Link>
           <Link to="/about" className="nav-link">About Us</Link>
-          <Link to="/portfolio" className="nav-link">Contact Us</Link>
+          <Link to="/contact" className="nav-link">Contact Us</Link>
           <Link to="/contact" className="button-primary btn-gradient">Book a Call</Link>
           <button className="mode-change" onClick={() => setDarkMode(!darkMode)}>
             <div>

@@ -15,27 +15,40 @@
 .contact-hero h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
+  font-weight: 700;
+  font-family: 'Lexend';
 }
 
 .contact-hero p {
-  font-size: 1.25rem;
-  color: var(--text-secondary);
+  font-size: 1.4rem;
 }
 
 .contact-form-section {
   padding: 4rem 2rem;
-  background-color: rgba(139, 92, 246, 0.05);
+  margin-top: 100px;
 }
 
 .form-container {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
+  box-shadow: 0px 3px 2px 0px #00000033;
+  padding: 40px;
+  border-radius: 40px;
+}
+.form-container button {
+  margin: auto;
+  display: block;
+  border-radius: 50px;
+  background: linear-gradient(90deg, rgba(203,163,255,1) 0%, rgba(112,13,204,1) 100%);
+  font-family: 'Lexend';
 }
 
 .form-container h2 {
   font-size: 2.5rem;
+  font-weight: 700;
   margin-bottom: 2rem;
   text-align: center;
+  font-family: 'Lexend';
 }
 
 .form-group {
@@ -46,15 +59,17 @@
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 500;
+  display: none;
 }
 
 .form-group input,
 .form-group textarea {
   width: 100%;
-  padding: 0.75rem;
-  border: 2px solid rgba(139, 92, 246, 0.2);
+  padding: 0.5rem 1.05rem;
+  border: 1px solid #700DCC;
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 23px;
   color: var(--text);
 }
 
@@ -62,6 +77,19 @@
 .form-group textarea:focus {
   outline: none;
   border-color: var(--primary);
+}
+
+.book-call {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0px 40px;
+  border-radius: 40px;
+  box-shadow: 0px 3px 2px 0px #00000033;
+}
+.book-call iframe {
+  border: 0px;
+  width: 100%;
+  min-height: 840px;
 }
 
 @media (max-width: 768px) {

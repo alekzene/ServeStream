@@ -30,6 +30,10 @@ function Contact() {
         <p>Your brand is one call away from immense growth.</p>
       </section>
 
+      <section className="book-call">
+        <iframe src='https://calendly.com/servestreamofficial/30min' title="book a call"></iframe>
+      </section>
+
       <section className="contact-form-section">
         <div className="form-container">
           <h2>Connect With Us</h2>
@@ -42,6 +46,7 @@ function Contact() {
                 name="firstName"
                 value={formData.firstName}
                 onChange={handleChange}
+                placeholder='First Name*'
                 required
               />
             </div>
@@ -54,6 +59,7 @@ function Contact() {
                 name="lastName"
                 value={formData.lastName}
                 onChange={handleChange}
+                placeholder='Last Name*'
                 required
               />
             </div>
@@ -66,6 +72,7 @@ function Contact() {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
+                placeholder='Email Address*'
                 required
               />
             </div>
@@ -77,11 +84,12 @@ function Contact() {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
+                placeholder='Your Message'
                 rows="6"
               />
             </div>
 
-            <button type="submit" className="button-primary">Submit</button>
+            <button type="submit" className="button-primary btn-gradient">Submit</button>
           </form>
         </div>
       </section>
