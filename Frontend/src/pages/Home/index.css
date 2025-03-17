@@ -62,12 +62,12 @@
 .stats {
   padding: 6rem 2rem;
   text-align: center;
-  background-color: white;
+
 }
 
 .stats h2 {
   font-family: 'Lexend', sans-serif;
-  color: black;
+
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 3rem;
@@ -296,14 +296,14 @@
 
 .partners {
   padding: 4rem 2rem;
-  background-color: white;
+
 }
 
 .partners-title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 3rem;
-  color: var(--primary);
+
 }
 
 .partners-grid {
