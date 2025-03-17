@@ -3,22 +3,22 @@ import "./index.css";
 function About() {
   const teamMembers = [
     {
-      name: 'Name B. Surname',
-      role: 'Co-Founder',
+      name: 'Farhan Muhammad',
+      role: 'CEO | Founder',
       description: [
-        'Short Bio here',
-        'Short Bio here',
-        'Short Bio here'
+        'Visionary CEO and Founder driving innovation in digital solutions',
+        'Ambitious leader with a passion for scaling businesses and technology',
+        'Committed to delivering impactful and user-centric digital experiences'
       ],
       image: '/placeholder.svg'
     },
     {
-      name: 'Name B. Surname',
-      role: 'Co-Founder',
+      name: 'Coco',
+      role: 'Web Developer',
       description: [
-        'Short Bio here',
-        'Short Bio here',
-        'Short Bio here'
+        '7 years of experience in building and maintaining web applications',
+        'Hands-on expertise in front-end and back-end development as a Full-Stack Engineer',
+        'Passionate about clean code, user-friendly interfaces, and impactful software solutions'
       ],
       image: '/placeholder.svg'
     },
