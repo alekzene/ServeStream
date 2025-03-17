@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: 'class', // Enables dark mode via a class
   purge: ['./src/**/*.{html,js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
