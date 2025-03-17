@@ -1,0 +1,78 @@
+.services-page {
+  padding-top: 80px;
+}
+
+.services-hero {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.services-hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.services-hero p {
+  margin-top: 12px;
+  font-size: 1.7rem;
+ color: black;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.expertise-section {
+  padding: 4rem 2rem;
+  background-color: rgba(139, 92, 246, 0.05);
+}
+
+.expertise-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.expertise-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.expertise-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.purple {
+  background-color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .services-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .expertise-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+}

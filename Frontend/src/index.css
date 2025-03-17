@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default Light Mode */
+body {
+  @apply bg-white text-black transition-colors duration-300;
+}
+
+/* Dark Mode */
+body.dark {
+  @apply bg-black text-white;
+}
+
+/* ✅ Ensure the Navbar Changes in Dark Mode */
+.navbar {
+  @apply bg-white text-black transition-colors duration-300;
+}
+
+body.dark .navbar {
+  @apply bg-gray-900 text-white;
+}
