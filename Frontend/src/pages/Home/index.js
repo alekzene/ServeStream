@@ -77,7 +77,7 @@ function Home() {
           <div className='partner-card text-center'>
             <img src='images/circle.png' alt='' width='160' className='pb-[30px] m-auto' />
             <h3 className='font-lexend font-bold'>Farhan</h3>
-            <div>CEO, Co-Founder</div>
+            <div>CEO, Founder</div>
           </div>
         </div>
         <div className='text-center'><Link to="/services" className="button-primary btn-gradient">Let’s Discuss Your Brand’s Future</Link></div>
