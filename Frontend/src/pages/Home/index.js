@@ -72,17 +72,12 @@ function Home() {
         </div>
       </section>
       <section className="partners">
-        <h1 className='font-lexend font-bold text-center pb-[30px]'>Your Partners in Progress</h1>
+        <h1 className='font-lexend font-bold text-center pb-[30px]'>Your Partner in Progress</h1>
         <div className='partners-grid mb-[50px]'>
           <div className='partner-card text-center'>
             <img src='images/circle.png' alt='' width='160' className='pb-[30px] m-auto' />
             <h3 className='font-lexend font-bold'>Farhan</h3>
             <div>CEO, Co-Founder</div>
-          </div>
-          <div className='partner-card text-center'>
-            <img src='images/circle.png' alt='' width='160' className='pb-[30px] m-auto' />
-            <h3 className='font-lexend font-bold'>Alexene</h3>
-            <div>Co-Founder</div>
           </div>
         </div>
         <div className='text-center'><Link to="/services" className="button-primary btn-gradient">Let’s Discuss Your Brand’s Future</Link></div>
